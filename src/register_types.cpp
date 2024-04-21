@@ -1,6 +1,6 @@
 #include "register_types.h"
 
-#include "./EntryController/EntryController.h"
+#include "./Entry Controller/EntryController.h"
 
 #include <gdextension_interface.h>
 #include <godot_cpp/core/defs.hpp>
