@@ -2,6 +2,7 @@
 
 #include "./Entry Controller/EntryController.h"
 #include "./Player Controller/PlayerController.h"
+#include "./Parallax Root/ParallaxRoot.h"
 
 #include <gdextension_interface.h>
 #include <godot_cpp/core/defs.hpp>
@@ -17,6 +18,7 @@ namespace godot
         }
         ClassDB::register_class<EntryController>();
         ClassDB::register_class<PlayerController>();
+        ClassDB::register_class<ParallaxRoot>();
     }
 
     void uninitialize_module(ModuleInitializationLevel p_level)

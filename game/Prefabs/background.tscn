@@ -1,0 +1,31 @@
+[gd_scene load_steps=3 format=3 uid="uid://cf5yv7oxqrpx5"]
+
+[ext_resource type="Texture2D" uid="uid://dxlf5hdh1aga8" path="res://Asset Packs/Sunny Land Forest/Environment/Layers/background.png" id="1_pk0mj"]
+[ext_resource type="Texture2D" uid="uid://bay0j5jrnd0b2" path="res://Asset Packs/Sunny Land Forest/Environment/Layers/middleground.png" id="2_1svk4"]
+
+[node name="Parallax Root" type="ParallaxRoot"]
+"scroll speed" = 40.0
+scroll_offset = Vector2(2598.69, 0)
+
+[node name="Background" type="ParallaxLayer" parent="."]
+position = Vector2(0, -1)
+motion_scale = Vector2(0.5, 1)
+motion_mirroring = Vector2(1152, 0)
+
+[node name="Background 1st" type="Sprite2D" parent="Background"]
+position = Vector2(288, 361)
+scale = Vector2(3, 3)
+texture = ExtResource("1_pk0mj")
+
+[node name="Background 2nd" type="Sprite2D" parent="Background"]
+position = Vector2(864, 361)
+scale = Vector2(3, 3)
+texture = ExtResource("1_pk0mj")
+
+[node name="Middleground" type="ParallaxLayer" parent="."]
+motion_mirroring = Vector2(1150, 0)
+
+[node name="Middleground" type="Sprite2D" parent="Middleground"]
+position = Vector2(576, 360)
+scale = Vector2(3, 3)
+texture = ExtResource("2_1svk4")
