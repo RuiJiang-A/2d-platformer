@@ -107,6 +107,9 @@ animations = [{
 size = Vector2(11, 20)
 
 [node name="Player Controller" type="PlayerController"]
+"jump speed" = -300.0
+process_mode = 4
+velocity = Vector2(0, 220757)
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_2xun6")
