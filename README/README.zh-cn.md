@@ -1,8 +1,3 @@
-# Simple 2D Platformer in Godot
-
-[![English](https://img.shields.io/badge/lang-en-blue.svg)](https://github.com/RuiJiang-A/2d-platformer/tree/main/README/README.en.md)
-[![中文](https://img.shields.io/badge/lang-zh--cn-red.svg)](https://github.com/RuiJiang-A/2d-platformer/tree/main/README/README.zh-cn.md)
-
 # Godot 引擎制作的简单的 2D 平台游戏
 
 欢迎来到这个使用 Godot 引擎创建的简单 2D 平台游戏。本项目旨在展示 C++集成 GDExtension 。享受在带有视差滚动背景的游戏中导航，并通过收集物品来获取分数!
