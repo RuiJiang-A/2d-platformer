@@ -11,6 +11,7 @@ offset_right = 212.0
 offset_bottom = 120.0
 theme_override_font_sizes/font_size = 64
 text = "PLAY"
+metadata/_edit_use_anchors_ = true
 
 [node name="Button_Quit" type="Button" parent="Entry Controller"]
 offset_left = 24.0
@@ -19,3 +20,4 @@ offset_right = 212.0
 offset_bottom = 224.0
 theme_override_font_sizes/font_size = 64
 text = "QUIT"
+metadata/_edit_use_anchors_ = true
