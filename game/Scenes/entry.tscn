@@ -1,0 +1,28 @@
+[gd_scene load_steps=2 format=3 uid="uid://e4o38e078ltb"]
+
+[ext_resource type="PackedScene" uid="uid://cf5yv7oxqrpx5" path="res://Prefabs/background.tscn" id="1_0eomu"]
+
+[node name="root" type="Node2D"]
+
+[node name="Background" parent="." instance=ExtResource("1_0eomu")]
+scroll_offset = Vector2(15962.1, 0)
+
+[node name="Entry Controller" type="EntryController" parent="."]
+
+[node name="Button_Play" type="Button" parent="Entry Controller"]
+offset_left = 24.0
+offset_top = 24.0
+offset_right = 212.0
+offset_bottom = 120.0
+theme_override_font_sizes/font_size = 64
+text = "PLAY"
+metadata/_edit_use_anchors_ = true
+
+[node name="Button_Quit" type="Button" parent="Entry Controller"]
+offset_left = 24.0
+offset_top = 128.0
+offset_right = 212.0
+offset_bottom = 224.0
+theme_override_font_sizes/font_size = 64
+text = "QUIT"
+metadata/_edit_use_anchors_ = true

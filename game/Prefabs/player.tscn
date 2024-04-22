@@ -1,0 +1,123 @@
+[gd_scene load_steps=24 format=3 uid="uid://if0esrg7y77v"]
+
+[ext_resource type="Texture2D" uid="uid://2kefo5rlcdw6" path="res://Asset Packs/Sunny Land Forest/Sprites/Player/player-idle/player-idle-1.png" id="1_xvqts"]
+[ext_resource type="Texture2D" uid="uid://dmwsssmqx3k2q" path="res://Asset Packs/Sunny Land Forest/Sprites/Player/player-idle/player-idle-2.png" id="2_dcam1"]
+[ext_resource type="Texture2D" uid="uid://dqkhvgscplgev" path="res://Asset Packs/Sunny Land Forest/Sprites/Player/player-idle/player-idle-3.png" id="3_v47aw"]
+[ext_resource type="Texture2D" uid="uid://bk1m33xoh7tmj" path="res://Asset Packs/Sunny Land Forest/Sprites/Player/player-idle/player-idle-4.png" id="4_uqlst"]
+[ext_resource type="Texture2D" uid="uid://b88h7e0gf4mqy" path="res://Asset Packs/Sunny Land Forest/Sprites/Player/player-idle/player-idle-5.png" id="5_mnyc1"]
+[ext_resource type="Texture2D" uid="uid://dxnyn28y2k4f7" path="res://Asset Packs/Sunny Land Forest/Sprites/Player/player-idle/player-idle-6.png" id="6_yj8g4"]
+[ext_resource type="Texture2D" uid="uid://bucgtajuw50pp" path="res://Asset Packs/Sunny Land Forest/Sprites/Player/player-idle/player-idle-7.png" id="7_rq18g"]
+[ext_resource type="Texture2D" uid="uid://cwppq5tlyqa3q" path="res://Asset Packs/Sunny Land Forest/Sprites/Player/player-idle/player-idle-8.png" id="8_2v0rp"]
+[ext_resource type="Texture2D" uid="uid://i5nnif1dqp6s" path="res://Asset Packs/Sunny Land Forest/Sprites/Player/player-idle/player-idle-9.png" id="9_nxdbo"]
+[ext_resource type="Texture2D" uid="uid://dhvvhyd00dgvq" path="res://Asset Packs/Sunny Land Forest/Sprites/Player/player-jump/player-jump-1.png" id="10_boed6"]
+[ext_resource type="Texture2D" uid="uid://bmnb6vif53p5h" path="res://Asset Packs/Sunny Land Forest/Sprites/Player/player-skip/player-skip-1.png" id="10_lk5tq"]
+[ext_resource type="Texture2D" uid="uid://catcngcobduwr" path="res://Asset Packs/Sunny Land Forest/Sprites/Player/player-skip/player-skip-2.png" id="11_1prm3"]
+[ext_resource type="Texture2D" uid="uid://b0gj8g3a4ybhf" path="res://Asset Packs/Sunny Land Forest/Sprites/Player/player-jump/player-jump-2.png" id="11_u3r61"]
+[ext_resource type="Texture2D" uid="uid://bnl7ehyvijbbn" path="res://Asset Packs/Sunny Land Forest/Sprites/Player/player-jump/player-jump-3.png" id="12_kjjpp"]
+[ext_resource type="Texture2D" uid="uid://bkbx51p3rs2mg" path="res://Asset Packs/Sunny Land Forest/Sprites/Player/player-skip/player-skip-3.png" id="12_tqn03"]
+[ext_resource type="Texture2D" uid="uid://c7q22e5o2b5j3" path="res://Asset Packs/Sunny Land Forest/Sprites/Player/player-jump/player-jump-4.png" id="13_i38xi"]
+[ext_resource type="Texture2D" uid="uid://8dgqe57t7i5v" path="res://Asset Packs/Sunny Land Forest/Sprites/Player/player-skip/player-skip-4.png" id="13_xufhw"]
+[ext_resource type="Texture2D" uid="uid://cker2k2t6n4h" path="res://Asset Packs/Sunny Land Forest/Sprites/Player/player-skip/player-skip-5.png" id="14_j04sy"]
+[ext_resource type="Texture2D" uid="uid://dxla20cmb6l22" path="res://Asset Packs/Sunny Land Forest/Sprites/Player/player-skip/player-skip-6.png" id="15_66ys1"]
+[ext_resource type="Texture2D" uid="uid://cu2r1f8ygsios" path="res://Asset Packs/Sunny Land Forest/Sprites/Player/player-skip/player-skip-7.png" id="16_1kw17"]
+[ext_resource type="Texture2D" uid="uid://8wfp8bwbfpcs" path="res://Asset Packs/Sunny Land Forest/Sprites/Player/player-skip/player-skip-8.png" id="17_owt2l"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_2xun6"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_xvqts")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_dcam1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_v47aw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_uqlst")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_mnyc1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_yj8g4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_rq18g")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_2v0rp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_nxdbo")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_boed6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_u3r61")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_kjjpp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_i38xi")
+}],
+"loop": true,
+"name": &"Jump",
+"speed": 12.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_lk5tq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_1prm3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_tqn03")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_xufhw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_j04sy")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_66ys1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_1kw17")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_owt2l")
+}],
+"loop": true,
+"name": &"Walk",
+"speed": 12.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2i5wx"]
+size = Vector2(11, 20)
+
+[node name="Player Controller" type="PlayerController"]
+process_mode = 4
+scale = Vector2(3, 3)
+velocity = Vector2(0, 220757)
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_2xun6")
+animation = &"Idle"
+frame_progress = 0.627913
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-0.5, 6)
+shape = SubResource("RectangleShape2D_2i5wx")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]

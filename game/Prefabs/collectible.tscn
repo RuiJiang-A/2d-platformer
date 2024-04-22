@@ -1,0 +1,40 @@
+[gd_scene load_steps=7 format=3 uid="uid://b3jv7j3i6lytd"]
+
+[ext_resource type="Texture2D" uid="uid://cwggks8d4ckhw" path="res://Asset Packs/Sunny Land Forest/Sprites/Misc/carrot/carrot-1.png" id="1_c8f2n"]
+[ext_resource type="Texture2D" uid="uid://cwa3d4bhseype" path="res://Asset Packs/Sunny Land Forest/Sprites/Misc/carrot/carrot-2.png" id="2_guew3"]
+[ext_resource type="Texture2D" uid="uid://1k5xa22btaj" path="res://Asset Packs/Sunny Land Forest/Sprites/Misc/carrot/carrot-3.png" id="3_epsyt"]
+[ext_resource type="Texture2D" uid="uid://tdntjroy4b1c" path="res://Asset Packs/Sunny Land Forest/Sprites/Misc/carrot/carrot-4.png" id="4_5y2hd"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_5eitv"]
+radius = 12.1655
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_nxmn6"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_c8f2n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_guew3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_epsyt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_5y2hd")
+}],
+"loop": true,
+"name": &"Idle",
+"speed": 6.0
+}]
+
+[node name="Collectible" type="Collectible"]
+scale = Vector2(3, 3)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_5eitv")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_nxmn6")
+animation = &"Idle"
+frame_progress = 0.947151
