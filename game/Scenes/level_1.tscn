@@ -362,7 +362,7 @@ sources/0 = SubResource("TileSetAtlasSource_ojmnf")
 [node name="root" type="Node2D"]
 
 [node name="Background" parent="." instance=ExtResource("2_hxkkx")]
-scroll_offset = Vector2(66626.8, 0)
+scroll_offset = Vector2(62927.8, 0)
 
 [node name="Player Controller" parent="." instance=ExtResource("1_hs03i")]
 "jump speed" = -450.0

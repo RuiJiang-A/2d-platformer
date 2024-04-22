@@ -8,6 +8,8 @@
 
 - 使用 GDExtension，这是一个特定于 Godot 的技术，允许引擎在运行时与本地共享库交互。这使得无需将本地代码与引擎一起编译，便可使用本地代码，提供更动态的开发过程。
 
+[玩家控制器展示](https://github.com/RuiJiang-A/2d-platformer/tree/main/README/videos/player-controller.mp4)
+
 ### 玩家控制器
 
 - 玩家可以使用左右箭头键（← 和 →）移动。
