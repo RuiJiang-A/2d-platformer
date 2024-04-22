@@ -1,6 +1,11 @@
-[gd_scene format=3 uid="uid://e4o38e078ltb"]
+[gd_scene load_steps=2 format=3 uid="uid://e4o38e078ltb"]
+
+[ext_resource type="PackedScene" uid="uid://cf5yv7oxqrpx5" path="res://Prefabs/background.tscn" id="1_0eomu"]
 
 [node name="root" type="Node2D"]
+
+[node name="Parallax Root" parent="." instance=ExtResource("1_0eomu")]
+scroll_offset = Vector2(15595.4, 0)
 
 [node name="Entry Controller" type="EntryController" parent="."]
 

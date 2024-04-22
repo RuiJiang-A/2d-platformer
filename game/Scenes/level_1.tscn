@@ -1,18 +1,23 @@
-[gd_scene load_steps=3 format=3 uid="uid://cbcbw00x1xky0"]
+[gd_scene load_steps=4 format=3 uid="uid://cbcbw00x1xky0"]
 
 [ext_resource type="PackedScene" uid="uid://if0esrg7y77v" path="res://Prefabs/player.tscn" id="1_hs03i"]
+[ext_resource type="PackedScene" uid="uid://cf5yv7oxqrpx5" path="res://Prefabs/background.tscn" id="2_hxkkx"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_s6rfs"]
 size = Vector2(1152, 116)
 
 [node name="root" type="Node2D"]
 
+[node name="Parallax Root" parent="." instance=ExtResource("2_hxkkx")]
+scroll_offset = Vector2(6748.69, 0)
+
 [node name="Player Controller" parent="." instance=ExtResource("1_hs03i")]
 process_mode = 0
-position = Vector2(128, 293.99)
+position = Vector2(128, 483.996)
 velocity = Vector2(0, 0)
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(-1, 222)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
 position = Vector2(577, 368)
