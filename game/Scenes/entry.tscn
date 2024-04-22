@@ -4,8 +4,8 @@
 
 [node name="root" type="Node2D"]
 
-[node name="Parallax Root" parent="." instance=ExtResource("1_0eomu")]
-scroll_offset = Vector2(15595.4, 0)
+[node name="Background" parent="." instance=ExtResource("1_0eomu")]
+scroll_offset = Vector2(15962.1, 0)
 
 [node name="Entry Controller" type="EntryController" parent="."]
 

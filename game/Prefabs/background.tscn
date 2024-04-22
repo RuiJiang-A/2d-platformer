@@ -5,7 +5,7 @@
 
 [node name="Parallax Root" type="ParallaxRoot"]
 "scroll speed" = 40.0
-scroll_offset = Vector2(2598.69, 0)
+scroll_offset = Vector2(2714.41, 0)
 
 [node name="Background" type="ParallaxLayer" parent="."]
 position = Vector2(0, -1)
