@@ -4,12 +4,6 @@ namespace godot
 {
     void PlayerController::_ready()
     {
-        // Disable Script when in editor
-        // if (Engine::get_singleton()->is_editor_hint())
-        //     set_process_mode(Node::ProcessMode::PROCESS_MODE_DISABLED);
-        // else
-        //     set_process_mode(Node::ProcessMode::PROCESS_MODE_INHERIT);
-
         _gravity = ProjectSettings::get_singleton()->get_setting("physics/2d/default_gravity", 0.0f);
 
         _animator = get_node<AnimatedSprite2D>("AnimatedSprite2D");

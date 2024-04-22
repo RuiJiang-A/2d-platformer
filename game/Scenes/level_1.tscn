@@ -1,6 +1,7 @@
-[gd_scene load_steps=6 format=3 uid="uid://cbcbw00x1xky0"]
+[gd_scene load_steps=7 format=3 uid="uid://cbcbw00x1xky0"]
 
 [ext_resource type="PackedScene" uid="uid://if0esrg7y77v" path="res://Prefabs/player.tscn" id="1_hs03i"]
+[ext_resource type="PackedScene" uid="uid://b3jv7j3i6lytd" path="res://Prefabs/collectible.tscn" id="1_iwxs1"]
 [ext_resource type="PackedScene" uid="uid://cf5yv7oxqrpx5" path="res://Prefabs/background.tscn" id="2_hxkkx"]
 [ext_resource type="Texture2D" uid="uid://ey1iyagxykwy" path="res://Asset Packs/Sunny Land Forest/Environment/Layers/tileset.png" id="3_ypfli"]
 
@@ -361,13 +362,16 @@ sources/0 = SubResource("TileSetAtlasSource_ojmnf")
 [node name="root" type="Node2D"]
 
 [node name="Background" parent="." instance=ExtResource("2_hxkkx")]
-scroll_offset = Vector2(60377.9, 0)
+scroll_offset = Vector2(66626.8, 0)
 
 [node name="Player Controller" parent="." instance=ExtResource("1_hs03i")]
 "jump speed" = -450.0
 process_mode = 0
-position = Vector2(94.9333, 479.993)
+position = Vector2(94.9333, 480)
 velocity = Vector2(0, 0)
+
+[node name="Collectible" parent="." instance=ExtResource("1_iwxs1")]
+position = Vector2(885, 352)
 
 [node name="Level" type="TileMap" parent="."]
 scale = Vector2(3, 3)
