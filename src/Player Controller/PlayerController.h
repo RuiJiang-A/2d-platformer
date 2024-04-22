@@ -9,18 +9,25 @@
 
 namespace godot
 {
+    /**
+     * @class PlayerController
+     * @brief Manages the player character's movement and actions in a 2D environment.
+     *
+     * This class extends CharacterBody2D to handle input for moving left and right,
+     * jumping, and updating animation states based on player actions.
+     */
     class PlayerController : public CharacterBody2D
     {
     private:
         GDCLASS(PlayerController, CharacterBody2D);
 
-        bool _isFacingRight;
+        bool _isFacingRight; ///< Indicates if the player is facing right.
 
-        real_t _horizontalSpeed;
-        real_t _jumpSpeed;
-        real_t _gravity;
+        real_t _horizontalSpeed; ///< Speed at which the player moves horizontally.
+        real_t _jumpSpeed;       ///< Speed at which the player jumps.
+        real_t _gravity;         ///< Gravity affecting the player.
 
-        AnimatedSprite2D *_animator;
+        AnimatedSprite2D *_animator; ///< Pointer to the animated sprite component.
 
         void add_gravity(double delta);
         void handle_input();

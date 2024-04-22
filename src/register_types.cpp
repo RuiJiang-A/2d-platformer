@@ -17,6 +17,9 @@ namespace godot
         {
             return;
         }
+
+        // Registering classes with Godot's ClassDB to make them available within the engine.
+        // This enables the classes to be instantiated and used in Godot's scripting environment.
         ClassDB::register_class<EntryController>();
         ClassDB::register_class<PlayerController>();
         ClassDB::register_class<ParallaxRoot>();
