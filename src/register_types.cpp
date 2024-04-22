@@ -1,6 +1,7 @@
 #include "register_types.h"
 
 #include "./Entry Controller/EntryController.h"
+#include "./Player Controller/PlayerController.h"
 
 #include <gdextension_interface.h>
 #include <godot_cpp/core/defs.hpp>
@@ -15,6 +16,7 @@ namespace godot
             return;
         }
         ClassDB::register_class<EntryController>();
+        ClassDB::register_class<PlayerController>();
     }
 
     void uninitialize_module(ModuleInitializationLevel p_level)

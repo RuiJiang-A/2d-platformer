@@ -1,3 +1,17 @@
-[gd_scene format=3 uid="uid://cbcbw00x1xky0"]
+[gd_scene load_steps=3 format=3 uid="uid://cbcbw00x1xky0"]
+
+[ext_resource type="PackedScene" uid="uid://if0esrg7y77v" path="res://Prefabs/player.tscn" id="1_hs03i"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_s6rfs"]
+size = Vector2(501, 214)
 
 [node name="root" type="Node2D"]
+
+[node name="Player Controller" parent="." instance=ExtResource("1_hs03i")]
+position = Vector2(120, 240)
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(295, 417)
+shape = SubResource("RectangleShape2D_s6rfs")
